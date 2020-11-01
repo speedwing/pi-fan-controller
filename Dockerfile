@@ -6,3 +6,4 @@ COPY requirements.txt /root/requirements.txt
 
 RUN pip install -r /root/requirements.txt
 
+RUN apk del build-base
